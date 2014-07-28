@@ -28,6 +28,7 @@
   "devDependencies": {},
   "keywords": [],
   "dependencies": {
-    "commander": "^2.3.0"
+    "commander": "^2.3.0",
+    "coffee-script": "^1.7.1"
   }
 }

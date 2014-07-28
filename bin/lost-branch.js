@@ -8,8 +8,8 @@
  * Licensed under the MIT license.
  */
 
-'use strict';
+var program = require('commander');
 
-exports.execute = function() {
-  return 'awesome';
-};
+
+require('coffee-script').register();
+require('../lib/lost-branch');

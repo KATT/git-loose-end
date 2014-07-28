@@ -1,4 +1,4 @@
-# Git loose ends
+# Git loose end
 
 Find loose ends in git history; astray branches which commit's that hasn't been merged into the current HEAD.
 

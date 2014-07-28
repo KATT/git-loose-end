@@ -1,27 +1,27 @@
 {
-  "name": "git-loose-ends",
+  "name": "git-loose-end",
   "description": "Find loose ends",
-  "version": "0.1.2",
-  "homepage": "https://github.com/KATT/git-loose-ends",
+  "version": "0.1.0",
+  "homepage": "https://github.com/KATT/git-loose-end",
   "author": {
     "name": "Alexander Johansson",
     "email": "alexander@n1s.se"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/KATT/git-loose-ends.git"
+    "url": "git://github.com/KATT/git-loose-end.git"
   },
   "bugs": {
-    "url": "https://github.com/KATT/git-loose-ends/issues"
+    "url": "https://github.com/KATT/git-loose-end/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/KATT/git-loose-ends/blob/master/LICENSE-MIT"
+      "url": "https://github.com/KATT/git-loose-end/blob/master/LICENSE-MIT"
     }
   ],
   "bin": {
-      "git-loose-ends": "bin/index.js"
+      "git-loose-end": "bin/index.js"
   },
   "engines": {
     "node": ">= 0.8.0"

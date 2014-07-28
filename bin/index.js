@@ -12,4 +12,4 @@ var program = require('commander');
 
 
 require('coffee-script').register();
-require('../lib/lost-branch');
+require('../lib/');

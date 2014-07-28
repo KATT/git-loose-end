@@ -1,14 +1,9 @@
-# lost-branch
+# Git loose ends
 
-Find loose ends
+Find loose ends in git history; astray branches which commit's that hasn't been merged into the current HEAD.
 
 ## Getting Started
-Install the module with: `npm install lost-branch`
-
-```javascript
-var lost_branch = require('lost-branch');
-lost_branch.awesome(); // "awesome"
-```
+Install the module with: `npm install git-looseends -g`
 
 ## Documentation
 _(Coming soon)_
@@ -17,10 +12,16 @@ _(Coming soon)_
 _(Coming soon)_
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 _(Nothing yet)_
+
+## Todos
+* Tests
+* Define remote to check against
+* Decide which branch to have as base
+* Ignore merge commits
 
 ## License
 Copyright (c) 2014 Alexander Johansson  

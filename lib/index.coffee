@@ -34,7 +34,7 @@ exec = (wat, autoThrow=true) ->
 
 
 program
-  .version '0.0.1'
+  .version '0.1.2'
   # .option '-b, --base [branch name]', 'Base branch (defaults `develop`)', 'develop'
   # .option '-r, --remote [remote]', 'using remote', 'origin'
   .option '-p, --path [directory]', 'directory to check', process.cwd()
@@ -61,9 +61,9 @@ unless program.quick
 
 # Get all the remote branches
 remoteBranches = exec 'git branch -r'
-remoteBranches = remoteBranches.match(/([a-z0-9\/\-\_]+)/ig)
+remoteBranches = remoteBranches.match(/([a-z0-9\/\-\_]+)$/mig)
 
-throw 'No remote branches found' unless remoteBranches.length
+throw 'No remote branches found' unless remoteBranches && remoteBranches.length
 debug "remoteBranches: #{remoteBranches}"
 
 

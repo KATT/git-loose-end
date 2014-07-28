@@ -3,7 +3,7 @@
 Find loose ends in git history; astray branches which commit's that hasn't been merged into the current HEAD.
 
 ## Getting Started
-Install the module with: `npm install git-looseends -g`
+Install with `npm install git-loose-end -g` & run with `git-loose-end` in the project you wanna use.
 
 ## Documentation
 _(Coming soon)_
@@ -24,5 +24,5 @@ _(Nothing yet)_
 * Ignore merge commits
 
 ## License
-Copyright (c) 2014 Alexander Johansson  
+Copyright (c) 2014 Alexander Johansson
 Licensed under the MIT license.

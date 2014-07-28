@@ -1,0 +1,33 @@
+{
+  "name": "lost-branch",
+  "description": "Find loose ends",
+  "version": "0.1.0",
+  "homepage": "https://github.com/KATT/lost-branch",
+  "author": {
+    "name": "Alexander Johansson",
+    "email": "alexander@n1s.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KATT/lost-branch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KATT/lost-branch/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/KATT/lost-branch/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/lost-branch",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "keywords": [],
+  "dependencies": {
+    "commander": "^2.3.0"
+  }
+}
